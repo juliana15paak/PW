@@ -13,9 +13,7 @@
         <link rel="stylesheet" href="css/style1.css?25">
         <title>Quiz</title>
     </head>
-
     <body>
-        
             <br>
             <h2>Qual o nome deste personagem?</h2>
             <div class="form">
@@ -47,10 +45,5 @@
                     </div>
                 </form>
             </div>
-
-
-        
-
-
     </body>
 </html>
