@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Pousada Waterfall</title>
+    <link type="text/css" rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+    <div id="container-fluid">
+        <header>
+            <div class="row">
+                <div class="col-2">
+                    <div class="logo">
+                        <img class="imagemLogo" src="images/logo.png">
+                    </div>
+                </div>
+                <div class="col-10">
+                    <div class="nomeempresa">
+                        <div class="textoNome">POUSADA WATERFALL</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="nav nav-pills nav-fill">
+            <ul class="listaMenu">
+                <li><a class="nav-item nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-item nav-link" href="galeria.html">Galeria</a></li>
+                <li><a class="nav-item nav-link" href="conhecaCidade.html">Conheça Bueno Brandão</a></li>
+                <li><a class="nav-item nav-link" href="contato.html">Orçamento</a></li>
+            </ul> 
+        </nav>
+        <br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="frmcol">
+                        <div class="tamanho">
+                        <h2>Orçamento</h2>
+                        <form name="frmOrcamento">
+                            <label>Selecione a suíte:</label>
+                            <select name="slcSuite" id="slcSuite">
+                                <option value="0">Selecione...</option>
+                                <option value="1">Suíte Small</option>
+                                <option value="2">Suíte Master</option>
+                                <option value="3">Suíte WaterBlue</option>
+                                <option value="4">Suíte Stellar</option>
+                                <option value="5">Suíte Bela Vista</option>
+                            </select>
+                            <br>
+                            <label>N° de Hóspedes:</label>
+                            <input type="text" name="hospedes" id="hospedes">
+                            <br>
+                            <label>N° de Diárias:</label>
+                            <input type="text" name="dias" id="dias">
+                            <br>
+                            <label>Refeições:</label>
+                            <input type="radio" name="rdRefeicao" id="rdRefeicao" value="1">Café da manhã
+                            <input type="radio" name="rdRefeicao" id="rdRefeicao" value="2"> Meia Pensão
+                            <input type="radio" name="rdRefeicao" id="rdRefeicao" value="3"> Pensão Completa
+                            <br>
+                            <label> Serviços Adicionais</label>
+                            <br>
+                            <input type="checkbox" id="traslado" name="traslado"> Traslado
+                            <input type="checkbox" id="citytour" name="citytour"> City Tour
+                            <input type="checkbox" id="passeio" name="passeio"> Passeio
+                            <br><br>
+                            <input type="button" value="Calcular" onclick="calcular()">
+                        </form>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="frmcol">
+                        <h2>Resumo do orçamento</h2>
+                        <div id=nomeSuite></div>
+                        <div id="hospedes"></div>
+                        <div id="valorDiarias"></div>
+                        <div id="refeicaoRecebe"></div>
+                        <div id="checkAdc"></div>
+                        <div id="valorTotal"></div>
+                    </div>
+                </div>
+            </div>
+        </div> <!--container-->
+        <div id="container-fluid">
+            <div id="row">
+                <br><br><br><br>
+            </div>
+        </div>
+        <footer>
+            <div class="footerA">
+                <p>
+                    Rua Afonso Pena, 178 - Bueno Brandão, Minas Gerais
+                    <br>
+                    E-mail: faleconosco@pousadawaterfall.com.br
+                </p>
+            </div>
+        </footer>
+    </div> <!--container-->
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="js/orcamento.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

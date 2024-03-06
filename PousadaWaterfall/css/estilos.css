@@ -1,0 +1,207 @@
+body{
+    background-color: 	#D9EFFA;
+    font-family: Century Gothic;
+}
+/*
+    id #
+    class .
+*/
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 27%;
+    float: left;
+    position: relative;
+}
+.imagemLogo{
+    width: 100%;
+    height: 100%;
+}
+.nomeempresa{
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+    background-color: #09BDD8;
+}
+.textoNome{
+    position: absolute;
+    /* top, bottom, left, right */
+    font-size: 35px;
+    top: 23%;
+    left: 30%;
+    color: #1D3D52;
+}
+.col-2{
+    background-color: #09BDD8;
+    padding: 0%;
+}
+.col-10{
+    background-color: #09BDD8;
+    padding: 0%;
+}
+.container-fluid{
+    padding: 0%;
+}
+.col{
+    padding: 0%;
+}
+.frmcol{
+    margin:4%;
+    padding:0%;
+    font-size: 20px;
+}
+.tamanho{
+    font-size: 20px;
+}
+
+#valorTotal{
+    font-weight: bolder;
+}
+nav{
+    width: 100%;
+    height: 5%;
+}
+.listaMenu{
+    list-style: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.listaMenu li a{
+    text-decoration: none;
+    width: 25%;
+    height: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+    background-color: #1D3D52;
+    font-size: 22px;
+    color: #D9EFFA;
+    font-weight: bolder;
+}
+.listaMenu li a:hover{
+    background-color: #D9EFFA;
+    color: #1D3D52;
+}
+.card{
+    align-items: center;
+    margin-left: 10%;
+}
+.espacoAcomod{
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    background-color: #D9EFFA;
+}
+
+.textoAcomod{
+    width: 100%;
+    height: 20%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 23px;
+    color:#1D3D52;
+    align-items: center;
+}
+
+#suites{
+    width: 100%;
+    height: 40%;
+    margin-bottom: 20px;
+    background-color: #D9EFFA;
+    text-align: center;
+}
+.cardSuite{
+    width: 20%;
+    height: 100%;
+    position: relative;
+    float: left;
+    background-color:#D9EFFA;
+    padding-left: 10px;
+}
+.imgCard{
+    width: 100%;
+    height: 80%;
+    text-align: center;
+}
+.fotoSuite{
+    width: 60%;
+    height: 100%;
+}
+.textoCard{
+    width: 100%;
+    text-align: center;
+}
+.nomeCard{
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 16px;
+    color:#1D3D52;
+}
+
+
+/*Galeria*/
+
+
+/*Conheça a cidade*/
+
+.imgCidade{
+    background-color: #D9EFFA;
+    padding: 0%;
+    margin: 5%;
+}
+
+.imgDest{
+    background-color: #D9EFFA;
+    padding: 0%;
+    width: 500px;
+    height:320px ;
+}
+.tituloCanheca{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+}
+  
+
+
+.textosobre{
+    background-color: #D9EFFA;
+    padding: 0%;
+    float: left;
+    position: relative;
+}
+
+.textosobrecidade{
+    background-color: #D9EFFA;
+    margin: 4%;
+    padding: 0%;
+    text-align: justify;
+    font-size: 25px;
+    color: #1D3D52;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 5%;
+    background-color: #1D3D52;
+}
+.footerA{
+    width: 100%;
+    height: 20%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 16px;
+    color:#D9EFFA;
+    margin-top: 7px;
+    text-align: center;
+    margin-bottom: 0px;
+}
